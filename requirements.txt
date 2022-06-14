@@ -6,25 +6,18 @@
 #
 absl-py==1.1.0
     # via
-    #   mediapipe
     #   tensorboard
     #   tensorflow
 astunparse==1.6.3
     # via tensorflow
-attrs==21.4.0
-    # via mediapipe
 cachetools==5.2.0
     # via google-auth
 certifi==2022.5.18.1
     # via requests
 charset-normalizer==2.0.12
     # via requests
-cycler==0.11.0
-    # via matplotlib
 flatbuffers==1.12
     # via tensorflow
-fonttools==4.33.3
-    # via matplotlib
 gast==0.4.0
     # via tensorflow
 google-auth==2.7.0
@@ -47,25 +40,16 @@ keras==2.9.0
     # via tensorflow
 keras-preprocessing==1.1.2
     # via tensorflow
-kiwisolver==1.4.3
-    # via matplotlib
 libclang==14.0.1
     # via tensorflow
 loguru==0.6.0
     # via -r requirements.in
 markdown==3.3.7
     # via tensorboard
-matplotlib==3.5.2
-    # via mediapipe
-mediapipe==0.8.10
-    # via -r requirements.in
 numpy==1.22.4
     # via
     #   h5py
     #   keras-preprocessing
-    #   matplotlib
-    #   mediapipe
-    #   opencv-contrib-python
     #   opencv-python
     #   opt-einsum
     #   pandas
@@ -73,23 +57,16 @@ numpy==1.22.4
     #   tensorflow
 oauthlib==3.2.0
     # via requests-oauthlib
-opencv-contrib-python==4.6.0.66
-    # via mediapipe
 opencv-python==4.6.0.66
     # via -r requirements.in
 opt-einsum==3.3.0
     # via tensorflow
 packaging==21.3
-    # via
-    #   matplotlib
-    #   tensorflow
+    # via tensorflow
 pandas==1.4.2
     # via -r requirements.in
-pillow==9.1.1
-    # via matplotlib
 protobuf==3.19.4
     # via
-    #   mediapipe
     #   tensorboard
     #   tensorflow
 pyasn1==0.4.8
@@ -99,13 +76,9 @@ pyasn1==0.4.8
 pyasn1-modules==0.2.8
     # via google-auth
 pyparsing==3.0.9
-    # via
-    #   matplotlib
-    #   packaging
+    # via packaging
 python-dateutil==2.8.2
-    # via
-    #   matplotlib
-    #   pandas
+    # via pandas
 pytz==2022.1
     # via pandas
 requests==2.28.0
